@@ -4,7 +4,8 @@
   header {
     width:100%;
     height:100vh;
-    background-image:linear-gradient( to bottom,#fff 80%,#797bf8 );
+    background-image:linear-gradient( to left,#fff ,#797bf8 );
+    
 }
     
     
@@ -16,7 +17,7 @@
     justify-content:space-between;
     display: flex;
     background-color:lightgoldenrodyellow;
-    background-image: linear-gradient(to top,#fff , #797bf8 20%);
+    background-image: linear-gradient(to top,#fff , #797bf8 );
 
 }
 .logo{
@@ -86,73 +87,41 @@ main { height: 80vh;
 .leftside h3{
     font-size: 40px;
     margin-bottom: 20px;
-    position: relative;
+    position: relative ;
 }
 .leftside h3:after{ 
     content:"";
     width: 450px;
     height: 3px;
     position: absolute;
-    top:43%;
-    left: 24px ;
+    top:43% ;
+    left: 35%;
     background-color: black;
  }
-  main.leftside h1{
+.leftside h1{
      margin-top: 20px;
     font-size: 70px;
     margin-bottom:25px ;}
-     main.leftside h2{
+.leftside h2{
          margin-bottom:35px ;
          font-weight:100 ;
          word-spacing:4px ;
 
      }
-     main.leftside.btn1{
-         text-decoration: none;
-         font-size:14px ;
-         font-weight: 900;
-         text-align: center;
-         padding: 12px 25px;
-         cursor: pointer;
-         text-transform: uppercase;
-         border-radius: 5px;
-         display: inline-block;
-         margin-right: 50px;
-         color: thistle;
-         letter-spacing: 0;
-         background-image: linear-gradient(to right,#4458dc 0% ,#854fee 100%);
-         border: double 2px transparent;
-         box-shadow: 0 10px 30px rgba(32, 226, 14, 0.3);
-         justify-content: space-around;
 
+    
+     button{
+         background-color: #9593e0;
+         border-radius: 15%;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         justify-content: space-between;
      }
-
-     main.leftside.btn2{
-        text-decoration: none;
-        font-size:14px ;
-        font-weight: 900;
-        text-align: center;
-        padding: 12px 25px;
-        cursor: pointer;
-        text-transform: uppercase;
-        border-radius: 5px;
-        display: inline-block;
-        margin-right: 50px;
-        letter-spacing: 0;
-       color: #222;
+     button:hover{color: rgb(10, 9, 9);
      
         background-color: thistle;
-        border: double 2px transparent;
+        border: double 2px rgb(204, 201, 233);
         box-shadow: none;
-    }
-    .leftside.btn1:hover{color: #222;
-     
-        background-color: thistle;
-        border: double 2px transparent;
-        box-shadow: none;
-        background-image: none;
-
-     }
+        background-image: none;}
 
 
 
